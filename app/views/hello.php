@@ -10,7 +10,8 @@
 			margin:0;
 			font-family:'Lato', sans-serif;
 			text-align:center;
-			color: #999;
+			color: white;
+            background-color: black;
 		}
 
 		.welcome {
