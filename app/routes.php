@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('/about', array('as' => 'profile', 'uses' => 'HomeController@showAbout'));
 
-Route::get('/art/{art}/speciality/{specialty}', array('as' => 'arts',
+Route::get('/art/{art}/specialty/{specialty}', array('as' => 'arts',
     'before' => 'ageOld:41|ageYoung:41',
     function($art, $specialty)
     {
