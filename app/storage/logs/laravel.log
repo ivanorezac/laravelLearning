@@ -1,0 +1,473 @@
+[2014-12-30 21:08:30] production.ERROR: exception 'ErrorException' with message 'Use of undefined constant before - assumed 'before'' in /home/ivan/Web/Apache/laravel4/app/routes.php:21
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(21): Illuminate\Exception\Handler->handleError(8, 'Use of undefine...', '/home/ivan/Web/...', 21, Array)
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Foundation/start.php(269): require('/home/ivan/Web/...')
+#2 [internal function]: {closure}(Object(Illuminate\Foundation\Application))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(736): call_user_func(Object(Closure), Object(Illuminate\Foundation\Application))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(641): Illuminate\Foundation\Application->fireAppCallbacks(Array)
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(635): Illuminate\Foundation\Application->bootApplication()
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(695): Illuminate\Foundation\Application->boot()
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 21:08:40] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:42] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:42] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:42] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:43] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:43] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:43] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:43] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:44] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:44] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:44] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 21:08:44] production.ERROR: exception 'ErrorException' with message 'call_user_func_array() expects parameter 1 to be a valid callback, no array or string given' in /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php:5373
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'call_user_func_...', '/home/ivan/Web/...', 5373, Array)
+#1 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(NULL, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#11 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#13 {main} [] []
+[2014-12-30 22:11:47] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:23
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(23): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 23, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:32] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:33] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:33] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:33] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:40] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-30 22:46:41] production.ERROR: exception 'ErrorException' with message 'Undefined variable: age' in /home/ivan/Web/Apache/laravel4/app/routes.php:25
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/routes.php(25): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 25, Array)
+#1 [internal function]: {closure}('1', '3')
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5373): call_user_func_array(Object(Closure), Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5040): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(5028): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7800): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8407): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(8354): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(11017): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /home/ivan/Web/Apache/laravel4/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /home/ivan/Web/Apache/laravel4/server.php(19): require_once('/home/ivan/Web/...')
+#14 {main} [] []
+[2014-12-31 00:00:54] production.ERROR: exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'forge'@'localhost' (using password: NO)' in /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'forge', '', Array)
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7688): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7684): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7596): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(7551): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#6 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(167): Illuminate\Database\DatabaseManager->connection(NULL)
+#7 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(115): Illuminate\Database\Migrations\DatabaseMigrationRepository->getConnection()
+#8 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/InstallCommand.php(52): Illuminate\Database\Migrations\DatabaseMigrationRepository->createRepository()
+#9 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\InstallCommand->fire()
+#10 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#16 {main} [] []
+[2014-12-31 00:03:30] production.ERROR: exception 'InvalidArgumentException' with message 'Command "migrate:create" is not defined.
+
+Did you mean one of these?
+    migrate:reset
+    migrate:make
+    migrate:refresh
+    migrate:rollback
+    migrate:install
+    migrate
+    migrate:publish' in /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php:564
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('migrate:create')
+#1 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2014-12-31 00:03:45] production.ERROR: exception 'RuntimeException' with message 'Not enough arguments.' in /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Input/Input.php:77
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(247): Symfony\Component\Console\Input\Input->validate()
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2014-12-31 00:09:35] production.ERROR: exception 'ErrorException' with message 'Undefined variable: table' in /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_000407_sculpture.php:16
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_000407_sculpture.php(16): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 16, Array)
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(110): Sculpture->{closure}(Object(Illuminate\Database\Schema\Blueprint))
+#2 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(3249): Illuminate\Database\Schema\Builder->create('sculpture', Object(Closure))
+#3 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_000407_sculpture.php(20): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#4 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_000407_sculpture.php(20): Illuminate\Support\Facades\Schema::create('sculpture', Object(Closure))
+#5 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): Sculpture->up()
+#6 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2014_12_31_0004...', 1, false)
+#7 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#8 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/ivan/Web/...', false)
+#9 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#10 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#16 {main} [] []
+[2014-12-31 00:15:13] production.ERROR: exception 'ErrorException' with message 'Undefined variable: table' in /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php:16
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(16): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/ivan/Web/...', 16, Array)
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(49): SculptureUpdate->{closure}(Object(Illuminate\Database\Schema\Blueprint))
+#2 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(186): Illuminate\Database\Schema\Blueprint->__construct('sculpture', Object(Closure))
+#3 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(94): Illuminate\Database\Schema\Builder->createBlueprint('sculpture', Object(Closure))
+#4 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(3249): Illuminate\Database\Schema\Builder->table('sculpture', Object(Closure))
+#5 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(17): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#6 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(17): Illuminate\Support\Facades\Schema::table('sculpture', Object(Closure))
+#7 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): SculptureUpdate->up()
+#8 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2014_12_31_0010...', 1, false)
+#9 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#10 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/ivan/Web/...', false)
+#11 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2014-12-31 00:16:03] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'sculpture'; check that column/key exists' in /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `sc...', Array)
+#2 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `sc...', Array, Object(Closure))
+#3 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `sc...', Array, Object(Closure))
+#4 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `sc...')
+#5 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(94): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(3249): Illuminate\Database\Schema\Builder->table('sculpture', Object(Closure))
+#8 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(30): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#9 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(30): Illuminate\Support\Facades\Schema::table('sculpture', Object(Closure))
+#10 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(199): SculptureUpdate->down()
+#11 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(172): Illuminate\Database\Migrations\Migrator->runDown(Object(stdClass), false)
+#12 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(59): Illuminate\Database\Migrations\Migrator->rollback(false)
+#13 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\RollbackCommand->fire()
+#14 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RollbackCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#20 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1091 Can't DROP 'sculpture'; check that column/key exists (SQL: alter table `sculpture` drop `sculpture`)' in /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `sc...', Array, Object(Closure))
+#1 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `sc...', Array, Object(Closure))
+#2 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `sc...')
+#3 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(94): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/ivan/Web/Apache/laravel4/bootstrap/compiled.php(3249): Illuminate\Database\Schema\Builder->table('sculpture', Object(Closure))
+#6 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(30): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#7 /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php(30): Illuminate\Support\Facades\Schema::table('sculpture', Object(Closure))
+#8 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(199): SculptureUpdate->down()
+#9 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(172): Illuminate\Database\Migrations\Migrator->runDown(Object(stdClass), false)
+#10 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RollbackCommand.php(59): Illuminate\Database\Migrations\Migrator->rollback(false)
+#11 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\RollbackCommand->fire()
+#12 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(252): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/ivan/Web/Apache/laravel4/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\RollbackCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#18 {main} [] []
+[2014-12-31 00:16:52] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Database\Schema\Blueprint::dropColumnIfExists()' in /home/ivan/Web/Apache/laravel4/app/database/migrations/2014_12_31_001047_sculptureUpdate.php:29
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-01-02 23:38:17] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "generate" namespace.' in /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php:516
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(550): Symfony\Component\Console\Application->findNamespace('generate')
+#1 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('generate:post')
+#2 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-03 22:19:25] production.ERROR: exception 'InvalidArgumentException' with message 'Command "phpunit" is not defined.' in /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php:564
+Stack trace:
+#0 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('phpunit')
+#1 /home/ivan/Web/Apache/laravel4/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/ivan/Web/Apache/laravel4/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []

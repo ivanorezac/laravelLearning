@@ -13,10 +13,15 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+    return View::make('hello');
 });
 
-Route::get('/art/{art}/speciality/{specialty}', array('as' => 'arts', function($art, $specialty)
-{
-    return 'Holy fuck it works! Art and category are:'.$art.' '.$specialty;
+Route::get('/about', array('as' => 'profile', 'uses' => 'HomeController@showAbout'));
+
+Route::get('/art/{art}/speciality/{specialty}', array('as' => 'arts',
+    'before' => 'ageOld:41|ageYoung:41',
+    function($art, $specialty)
+    {
+        return 'Holy fuck it works! Art and category are:'.$art.' '.$specialty;
 }));
+
